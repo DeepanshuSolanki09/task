@@ -70,7 +70,7 @@ export default function Home() {
           {/* Right 3D Canvas Side */}
           <div className="w-full md:w-1/2 flex items-center justify-center relative">
             <div className="w-full relative p-2 bg-white/60 backdrop-blur-md rounded-3xl border border-white/80 shadow-2xl shadow-pink-200/50 overflow-hidden">
-              <ThreeD />
+              {/* <ThreeD /> */}
             </div>
           </div>
         </main>
