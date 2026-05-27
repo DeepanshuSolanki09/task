@@ -7,7 +7,7 @@ import { Loader } from '@react-three/drei';
 
 const Model = () => {
   const { scene } = useGLTF("/Untitled2.glb");
-  return <primitive object={scene} scale={[5, 5, 5]} position={[0, -2.5, 0]} />;
+  return <primitive object={scene} scale={[5, 5, 5]} position={[0, -3, 0]} />;
 };
 
 const ThreeD = () => {
