@@ -6,7 +6,7 @@ import React, { Suspense } from "react";
 import { Loader } from '@react-three/drei';
 
 const Model = () => {
-  const { scene } = useGLTF("/woman_xvi.glb");
+  const { scene } = useGLTF("/Untitled2.glb");
   return <primitive object={scene} scale={[5, 5, 5]} position={[0, -2.5, 0]} />;
 };
 
