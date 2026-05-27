@@ -20,7 +20,7 @@ export default function Home() {
     const t1 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-story",
-        start: "top 90%",
+        start: "top 40%",
         end: "bottom 80%",
         scrub: 1.5,
       },
@@ -44,7 +44,7 @@ export default function Home() {
     const t2 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-events",
-        start: "top 60%",
+        start: "top 40%",
         end: "bottom 80%",
         scrub: 1.5,
       },
@@ -67,8 +67,8 @@ export default function Home() {
     const t3 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-certificate",
-        start: "top 60%",
-        end: "bottom 20%",
+        start: "top 40%",
+        end: "bottom 80%",
         scrub: 1.5,
       },
     });
@@ -97,8 +97,8 @@ export default function Home() {
     const t4 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-team",
-        start: "top 60%",
-        end: "bottom 20%",
+        start: "top 40%",
+        end: "bottom 80%",
         scrub: 1.5,
       },
     });
@@ -289,7 +289,7 @@ export default function Home() {
             <div className="h-[450px] w-[300px] flex flex-col items-center justify-center rounded-2xl bg-white shadow-xl p-4 our-story1">
               <div className="h-[200px] w-[250px] rounded-2xl bg-purple-300 p-2 relative">
                 <Image
-                  src="/7.jpg"
+                  src="/IMG_0758.jpg"
                   alt="Our Pillars Image"
                   layout="fill"
                   objectFit="cover"

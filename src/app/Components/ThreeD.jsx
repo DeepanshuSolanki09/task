@@ -13,7 +13,7 @@ const ThreeD = () => {
   return (
     <div className="h-[450px] w-full">
       <Canvas camera={{ position: [0, 7, 4], fov: 45 }}>
-        <Suspense fallback={null}>
+        <Suspense fallback={<div>Loading...</div>}>
           <Model />
         </Suspense>
         
