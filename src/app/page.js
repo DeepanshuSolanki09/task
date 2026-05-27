@@ -268,7 +268,7 @@ export default function Home() {
             <div className="h-[450px] w-[300px] flex flex-col items-center justify-center rounded-2xl bg-white shadow-xl p-4 our-story1">
               <div className="h-[200px] w-[250px] rounded-2xl bg-blue-300 p-2 relative">
                 <Image
-                  src="/she-YlenJon1O7ieeEoa.avif"
+                  src="/images (1).jpg"
                   alt="Our Mission Image"
                   layout="fill"
                   objectFit="cover"
@@ -289,7 +289,7 @@ export default function Home() {
             <div className="h-[450px] w-[300px] flex flex-col items-center justify-center rounded-2xl bg-white shadow-xl p-4 our-story1">
               <div className="h-[200px] w-[250px] rounded-2xl bg-purple-300 p-2 relative">
                 <Image
-                  src="/she-YlenJon1O7ieeEoa.avif"
+                  src="/7.jpg"
                   alt="Our Pillars Image"
                   layout="fill"
                   objectFit="cover"
@@ -310,7 +310,7 @@ export default function Home() {
             <div className="h-[450px] w-[300px] flex flex-col items-center justify-center rounded-2xl bg-white shadow-xl p-4 our-story1">
               <div className="h-[200px] w-[250px] rounded-2xl bg-amber-300 p-2 relative">
                 <Image
-                  src="/she-YlenJon1O7ieeEoa.avif"
+                  src="/nck-slider.jpg"
                   alt="Our Impact Image"
                   layout="fill"
                   objectFit="cover"
@@ -351,16 +351,19 @@ export default function Home() {
                 title: "Empowerment Workshop",
                 time: "Oct 12, 10:00 AM",
                 aim: "Building leadership skills through collaborative mentoring sessions.",
+                image:"/IMG_0758.jpg",
               },
               {
                 title: "Global Literacy Drive",
                 time: "Nov 05, 02:00 PM",
                 aim: "Providing financial tools and resources for community growth.",
+                image:"/Markelytics-drive-on-World-Literacy-Day.jpg",
               },
               {
                 title: "Women's Tech Summit",
                 time: "Dec 01, 09:00 AM",
                 aim: "Breaking barriers in technology with hands-on skill development.",
+                image:"/images.jpg",
               },
             ].map((event, index) => (
               <div
@@ -369,7 +372,7 @@ export default function Home() {
               >
                 <div className="h-[200px] w-full rounded-2xl bg-pink-100 mb-4 relative overflow-hidden">
                   <Image
-                    src="/she-YlenJon1O7ieeEoa.avif"
+                    src={event.image}
                     alt={event.title}
                     layout="fill"
                     objectFit="cover"
@@ -406,13 +409,13 @@ export default function Home() {
           </div>
 
           <div className="w-full h-full flex flex-col-reverse md:flex-row items-center justify-center relative gap-10">
-            <div className="md:h-3/4 md:w-3/4 h-full w-full flex items-center justify-center rounded-2xl bg-white shadow-xl">
+            <div className="md:h-3/4 md:w-3/4 h-full w-full flex items-center justify-center rounded-2xl bg-white shadow-xl  our-certificate-img">
               <Image
                 src="/she-YlenJon1O7ieeEoa.avif"
                 alt="Certificate Image"
                 width={600}
                 height={400}
-                className="rounded-3xl shadow-xl md:h-1/2 h-full w-full object-cover our-certificate-img"
+                className="rounded-3xl shadow-xl md:h-1/2 h-full w-full object-cover"
               />
             </div>
 

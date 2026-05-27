@@ -5,14 +5,14 @@ import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 
 const Model = () => {
-  const { scene } = useGLTF("/Untitled2.glb");
-  return <primitive object={scene} scale={[5, 5, 5]} position={[0, -4.5, 0]} />;
+  const { scene } = useGLTF("/woman_xvi.glb");
+  return <primitive object={scene} scale={[5, 5, 5]} position={[0, -2.5, 0]} />;
 };
 
 const ThreeD = () => {
   return (
     <div className="h-[450px] w-full">
-      <Canvas camera={{ position: [0, 7, 9], fov: 45 }}>
+      <Canvas camera={{ position: [0, 7, 4], fov: 45 }}>
         <Suspense fallback={null}>
           <Model />
         </Suspense>

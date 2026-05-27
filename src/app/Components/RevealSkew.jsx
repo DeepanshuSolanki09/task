@@ -13,9 +13,9 @@ const Revealskew = ({word,colour}) => {
             y:200,
             skewY:45,
             delay:0.5,
-            duration:1.5,
+            duration:1,
             stagger:{
-                amount:1
+                amount:0.5
             },
             scrollTrigger:{
                 trigger: `.text${word}`,
