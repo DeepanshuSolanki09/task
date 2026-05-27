@@ -3,6 +3,7 @@
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
+import { Loader } from '@react-three/drei';
 
 const Model = () => {
   const { scene } = useGLTF("/woman_xvi.glb");
@@ -13,7 +14,7 @@ const ThreeD = () => {
   return (
     <div className="h-[450px] w-full">
       <Canvas camera={{ position: [0, 7, 4], fov: 45 }}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={null}>
           <Model />
         </Suspense>
         
@@ -23,6 +24,7 @@ const ThreeD = () => {
           maxPolarAngle={Math.PI / 2}
         />
       </Canvas>
+       <Loader /> 
     </div>
   );
 };

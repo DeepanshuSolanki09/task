@@ -20,7 +20,7 @@ export default function Home() {
     const t1 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-story",
-        start: "top 40%",
+        start: "top 90%",
         end: "bottom 80%",
         scrub: 1.5,
       },
@@ -44,7 +44,7 @@ export default function Home() {
     const t2 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-events",
-        start: "top 40%",
+        start: "top 60%",
         end: "bottom 80%",
         scrub: 1.5,
       },
@@ -67,8 +67,8 @@ export default function Home() {
     const t3 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-certificate",
-        start: "top 40%",
-        end: "bottom 80%",
+        start: "top 60%",
+        end: "bottom 20%",
         scrub: 1.5,
       },
     });
@@ -97,8 +97,8 @@ export default function Home() {
     const t4 = gsap.timeline({
       scrollTrigger: {
         trigger: "#our-team",
-        start: "top 40%",
-        end: "bottom 80%",
+        start: "top 60%",
+        end: "bottom 20%",
         scrub: 1.5,
       },
     });
